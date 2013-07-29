@@ -1,0 +1,51 @@
+{ *********************************************************************** }
+{                                                                         }
+{                          VDO Print Components                           }
+{                            Delphi 5 Package                             }
+{              Copyright (C) 2003-2006 Vinicius de Oliveira               }
+{                                                                         }
+{                       Version 3.1.0 - 07/06/2006                        }
+{                                                                         }
+{ *********************************************************************** }
+
+package VDOPrint;
+{$R *.res}
+{$R '..\..\src\VDOPrint.dcr'}
+{$ALIGN ON}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO ON}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS OFF}
+{$WRITEABLECONST ON}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $00400000}
+{$DESCRIPTION 'VDO Print Components'}
+{$IMPLICITBUILD OFF}
+
+requires
+  vcl50;
+
+contains
+  VDOBasePrinter in '..\..\src\VDOBasePrinter.pas',
+  VDOCaPrinter in '..\..\src\VDOCaPrinter.pas',
+  VDODmPrinter in '..\..\src\VDODmPrinter.pas',
+  VDOPrintConsts in '..\..\src\VDOPrintConsts.pas',
+  VDOPrinter in '..\..\src\VDOPrinter.pas',
+  VDOPrintProgress in '..\..\src\VDOPrintProgress.pas' {frmVDOPrintProgress},
+  VDOPrinterTypeDlg in '..\..\src\VDOPrinterTypeDlg.pas' {frmVDOPrinterTypeDlg},
+  VDOPreview in '..\..\src\VDOPreview.pas' {frmVDOPreview};
+
+end.

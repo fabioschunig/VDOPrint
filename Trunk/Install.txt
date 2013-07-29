@@ -1,0 +1,13 @@
+VDOPrint - Instalação
+  
+Como instalar os componentes :  
+
+1. Descompacte o arquivo .zip na pasta de sua preferência. 
+
+2. Na IDE do Delphi vá em "File -> Open", vá até a pasta de instalação e localize na sub-pasta "packages", a sub-pasta correspondente à sua versão do Delphi. Abra o package "VDOPrint.dpk". Click em "Compile" e depois em "Install". Feche o package (não há necessidade de salvar).
+
+3. Na IDE do Delphi vá ao menu "Tools -> Enviroment Options" e na guia "Library" click no botão elíptico (...) à frente de "Library Path", click no botão elíptico (...) à frente da caixa de texto, localize na pasta de instalação dos componentes a sub-pasta "src", click em "OK", click em "Add" e click em "OK".
+
+Procure pela paleta "VDO" e as classes de VDOPrint estarão registradas. 
+
+ 
